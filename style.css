@@ -140,7 +140,7 @@ nav.scrolled {
 /* .about-us es la cuadrícula; los contenedores intermedios "desaparecen"
    para que todas las tarjetas queden en la misma rejilla */
 .about-us {
-    background: #f4f6fa;
+    background: #95dfec;
     padding: 80px max(5%, calc((100% - 1200px) / 2));
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -161,10 +161,10 @@ nav.scrolled {
 
 .servicios,
 .servicio {
-    background: #fff;
+    background: #00c0f0;
     padding: 35px 30px;
     border-radius: 10px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.986);
     transition: transform .3s ease, box-shadow .3s ease;
 }
 
@@ -183,7 +183,7 @@ nav.scrolled {
     justify-content: center;
     margin-bottom: 20px;
     font-size: 28px;
-    color: #fff;
+    color: #553aca;
     background: #1fde82;
     border-radius: 50%;
     box-shadow: 0 8px 16px rgba(31, 222, 130, .3);
@@ -205,7 +205,7 @@ nav.scrolled {
 
 .servicios a,
 .servicio a {
-    color: #5d6678;
+    color: #1e396e;
     text-decoration: none;
     font-weight: 500;
     transition: color .3s ease;
@@ -247,7 +247,7 @@ nav.scrolled {
 /* ========== RESULTADOS ========== */
 .resultados {
     background: #2570ff;
-    color: #fff;
+    color: #5bd9ff;
     padding: 70px 0;
 }
 
@@ -300,7 +300,7 @@ nav.scrolled {
 .resultes-text a {
     display: inline-block;
     padding: 10px 25px;
-    color: #fff;
+    color: #9ee1f1;
     text-decoration: none;
     font-weight: 500;
     border: 2px solid #fff;
